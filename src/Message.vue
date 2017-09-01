@@ -1,5 +1,17 @@
 <template>
   <div>
     <h1>This is a greate Message!</h1>
+    <app-input></app-input>
   </div>
 </template>
+
+<script>
+  //local component
+  import Input from './Input.vue'
+
+  export default {
+    components: {
+      'app-input': Input
+    }
+  }
+</script>
